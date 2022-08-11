@@ -8,9 +8,9 @@ import java.util.Map;
 public class HttpHeader {
     private static final String DELIMITER = ": ";
 
-    private final Map<String, String> headers;
+    private final HashMap<String, String> headers;
 
-    private HttpHeader(Map<String, String> headers) {
+    private HttpHeader(HashMap<String, String> headers) {
         this.headers = headers;
     }
 

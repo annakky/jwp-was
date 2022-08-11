@@ -14,8 +14,7 @@ public class HttpRequestV2 {
     private HttpMethod method;
     private RequestPath path;
     private HttpHeader headers;
-    private Map<String, String> parameters;
-    private Map<String, String> body;
+    private RequestBody body;
     private Map<String, HttpCookie> cookies;
 
     public HttpRequestV2(InputStream inputStream) throws IOException {
